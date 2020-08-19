@@ -1,4 +1,6 @@
 {
+    "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+    "terminal.integrated.fontSize": 16,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.statusBar.visible": true,
@@ -72,6 +74,6 @@
     "bracket-pair-colorizer-2.colors": [
         "#c2ab82",
         "#70b1e6",
-        "#b580ba",
-    ],
+        "#b580ba"
+    ]
 }
