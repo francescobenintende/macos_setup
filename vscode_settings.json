@@ -1,0 +1,77 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "window.title": "${activeEditorLong},${separator}${rootName}",
+    "search.usePCRE2": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.insertSpaces": true,
+    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.fontSize": 12,
+    "explorer.openEditors.visible": 0,
+    "files.associations": {
+        "*.jenkinsfile": "groovy",
+        "*.py.j2": "python",
+        "*.yaml.j2": "yaml"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/__pycache__": true
+    },
+    "terminal.integrated.scrollback": 3000,
+    "terminal.integrated.cursorBlinking": true,
+    "python.pythonPath": "${workspaceRoot}/.env/bin/python",
+    "python.linting.pylintArgs": [
+        "${workspaceRoot}/.env/lib/python3.7/site-packages/builder/testing/python/pylintrc"
+    ],
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent"
+    ],
+    "python.linting.ignorePatterns": [
+        ".env/**/*.py",
+        ".vscode/*.py",
+        "**/*_pb2.py"
+    ],
+    "python.sortImports.args": [
+        "-sl"
+    ],
+    "python.testing.nosetestsEnabled": true,
+    "python.testing.nosetestPath": ".env/bin/nosetests",
+    "jupyter.appendResults": false,
+    "cSpell.userWords": [
+        "pylint"
+    ],
+    "yaml.schemas": {
+        ".env/lib/python3.7/site-packages/genie/internal/validator/schema.json": "*.api.yaml"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.check.npmIsInstalled": false,
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "liveshare.featureSet": "insiders",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "bracket-pair-colorizer-2.colors": [
+        "#c2ab82",
+        "#70b1e6",
+        "#b580ba"
+    ]
+}
