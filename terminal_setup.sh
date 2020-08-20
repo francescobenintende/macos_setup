@@ -41,5 +41,9 @@ brew install svn
 brew install mackup
 brew install node
 
+echo "Installing pyenv"
+brew install pyenv
+eval "$(pyenv init -)"
+
 echo "Cleaning up brew"
 brew cleanup
