@@ -31,6 +31,7 @@ mas_apps=(
     "Caffeinated"
     "BetterSnapTool"
     "Xcode"
+    "Pages"
 )
 
 for mas_app in $mas_apps

@@ -41,9 +41,11 @@ brew install svn
 brew install mackup
 brew install node
 
-echo "Installing pyenv"
+echo "Installing pyenv and virtualenv"
 brew install pyenv
-eval "$(pyenv init -)"
+brew install pyenv-virtualenv
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
 echo "Cleaning up brew"
 brew cleanup
