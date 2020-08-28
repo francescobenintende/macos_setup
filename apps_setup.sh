@@ -2,7 +2,6 @@
 apps=(
   google-chrome
   visual-studio-code
-  whatsapp
   teamviewer
   spotify
 )
@@ -32,6 +31,7 @@ mas_apps=(
     "BetterSnapTool"
     "Xcode"
     "Pages"
+    "WhatsApp Desktop"
 )
 
 for mas_app in $mas_apps
